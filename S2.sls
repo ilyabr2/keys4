@@ -1,4 +1,4 @@
 ---
 s2:
- cmd.run:
-    - name: dpkg -i /tmp/nginx/*.deb
+ cmd.run: #Запуск консольного приложения
+    - name: dpkg -i /tmp/nginx/*.deb #Выполнение команды по распаковке дистрибутива
